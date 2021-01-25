@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: thistle;
+    font-size: 26px;
+}
+nav {
+    background-color: darkslategray;
+}
+nav ul {
+    list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+}
+nav li {
+    flex: 1 0 330px;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+.header {
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url(../afb/Kerstmenu.jpeg);
+    background-position: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+.richtpunt {
+    position: relative;
+    top: -80px;
+    display: block;
+    visibility: hidden;
+}
+section {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+section header {
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#eerste-deel header{
+    background-image: url(../afb/bietentartaar.jpg);
+}
+
+#tweede-deel header{
+    background-image: url(../afb/pastinaak.jpg);
+}
+
+#derde-deel header{
+    background-image: url(../afb/stoofpeertjes.jpg);
+}
+
+#vierde-deel header{
+    background-image: url(../afb/tiramisu.jpg);
+}
+
+h1, h2, h4 {
+    color: white;
+    text-align: center; 
+    text-shadow: 0 0 13px darkslategrey; 
+    letter-spacing: 7px;
+}
+
+h4 {
+    font-variant: small-caps;
+}
+h6 {
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+
+section ol {
+    margin: 20px 60px;
+}
+section p, section h6 {
+    padding: 0px 90px
+}
+
+footer {
+    background-color: darkslategrey;
+    color: floralwhite;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: floralwhite;
+}
+
+.validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
