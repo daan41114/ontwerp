@@ -1,3 +1,18 @@
+nav {
+    background-color: chocolate;
+    height: 39px;
+}
+
+nav a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+
 h1{
     color:red;
     background-color: white;
@@ -5,3 +20,14 @@ h1{
 body {
     background-color: lightblue;
   }
+
+footer {
+    background-color: bisque;
+    color: black;
+    padding: 10px 30px;
+}
+
+section{
+    background-color: white;
+    color: black;
+}
